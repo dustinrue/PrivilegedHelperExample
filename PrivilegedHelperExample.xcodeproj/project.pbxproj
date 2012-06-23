@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA35BF7A1503C30200DA4314 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA35BF791503C30200DA4314 /* Cocoa.framework */; };
+		AA35BF841503C30200DA4314 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA35BF821503C30200DA4314 /* InfoPlist.strings */; };
+		AA35BF8D1503C30200DA4314 /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA35BF8C1503C30200DA4314 /* SSAppDelegate.m */; };
+		AA35BF901503C30200DA4314 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA35BF8E1503C30200DA4314 /* MainMenu.xib */; };
+		AA35BFA11503C49800DA4314 /* BetterAuthorizationSampleLib.c in Sources */ = {isa = PBXBuildFile; fileRef = AA35BF981503C49800DA4314 /* BetterAuthorizationSampleLib.c */; };
+		AA35BFA41503C49800DA4314 /* SSPrivilegedHelperCommon.c in Sources */ = {isa = PBXBuildFile; fileRef = AA35BF9C1503C49800DA4314 /* SSPrivilegedHelperCommon.c */; };
+		AA35BFA71503CAA900DA4314 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA35BF851503C30200DA4314 /* main.m */; };
+		AA35BFA91503CB2B00DA4314 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA35BFA81503CB2B00DA4314 /* ServiceManagement.framework */; };
+		AA35BFAB1503CB3200DA4314 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA35BFAA1503CB3200DA4314 /* Security.framework */; };
+		AA35BFBA1503CBC700DA4314 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA35BFAA1503CB3200DA4314 /* Security.framework */; };
+		AA35BFBC1503CBCE00DA4314 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA35BFBB1503CBCE00DA4314 /* CoreFoundation.framework */; };
+		AA35BFBE1503CBE800DA4314 /* ExamplePrivilegedHelper-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = AA35BF9A1503C49800DA4314 /* ExamplePrivilegedHelper-Info.plist */; };
+		AA35BFBF1503CBE800DA4314 /* ExamplePrivilegedHelper-Launchd.plist in Sources */ = {isa = PBXBuildFile; fileRef = AA35BF9B1503C49800DA4314 /* ExamplePrivilegedHelper-Launchd.plist */; };
+		AA35BFC01503CBE800DA4314 /* SSPrivilegedHelperCommon.c in Sources */ = {isa = PBXBuildFile; fileRef = AA35BF9C1503C49800DA4314 /* SSPrivilegedHelperCommon.c */; };
+		AA35BFC11503CBE800DA4314 /* SSPrivilegedHelperMain.c in Sources */ = {isa = PBXBuildFile; fileRef = AA35BF9E1503C49800DA4314 /* SSPrivilegedHelperMain.c */; };
+		AA35BFC51503CC2C00DA4314 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA35BFC41503CC2C00DA4314 /* CoreServices.framework */; };
+		AA35BFD61503CD2400DA4314 /* exampletoolmain.m in Sources */ = {isa = PBXBuildFile; fileRef = AA35BFA01503C49800DA4314 /* exampletoolmain.m */; };
+		AA35BFD81503CF2F00DA4314 /* ssexampletool in Resources */ = {isa = PBXBuildFile; fileRef = AA35BFCA1503CCDF00DA4314 /* ssexampletool */; };
+		AA35BFDA1503CF7D00DA4314 /* com.stevestreeting.ExamplePrivilegedHelper in Copy Launch Services */ = {isa = PBXBuildFile; fileRef = AA35BFB01503CB6C00DA4314 /* com.stevestreeting.ExamplePrivilegedHelper */; };
+		AA35BFDB1503D2BD00DA4314 /* BetterAuthorizationSampleLib.c in Sources */ = {isa = PBXBuildFile; fileRef = AA35BF981503C49800DA4314 /* BetterAuthorizationSampleLib.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA35BFC21503CBFC00DA4314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA35BF6C1503C30100DA4314 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA35BFAF1503CB6C00DA4314;
+			remoteInfo = ExamplePrivilegedHelper;
+		};
+		AA35BFD41503CD1500DA4314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA35BF6C1503C30100DA4314 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA35BFC91503CCDF00DA4314;
+			remoteInfo = ssexampletool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA35BFC81503CCDF00DA4314 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AA35BFD91503CF6E00DA4314 /* Copy Launch Services */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				AA35BFDA1503CF7D00DA4314 /* com.stevestreeting.ExamplePrivilegedHelper in Copy Launch Services */,
+			);
+			name = "Copy Launch Services";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA35BF751503C30200DA4314 /* PrivilegedHelperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivilegedHelperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA35BF791503C30200DA4314 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AA35BF7C1503C30200DA4314 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AA35BF7D1503C30200DA4314 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AA35BF7E1503C30200DA4314 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA35BF811503C30200DA4314 /* PrivilegedHelperExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrivilegedHelperExample-Info.plist"; sourceTree = "<group>"; };
+		AA35BF831503C30200DA4314 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA35BF851503C30200DA4314 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA35BF871503C30200DA4314 /* PrivilegedHelperExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrivilegedHelperExample-Prefix.pch"; sourceTree = "<group>"; };
+		AA35BF8B1503C30200DA4314 /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
+		AA35BF8C1503C30200DA4314 /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
+		AA35BF8F1503C30200DA4314 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AA35BF981503C49800DA4314 /* BetterAuthorizationSampleLib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BetterAuthorizationSampleLib.c; sourceTree = "<group>"; };
+		AA35BF991503C49800DA4314 /* BetterAuthorizationSampleLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetterAuthorizationSampleLib.h; sourceTree = "<group>"; };
+		AA35BF9A1503C49800DA4314 /* ExamplePrivilegedHelper-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ExamplePrivilegedHelper-Info.plist"; sourceTree = "<group>"; };
+		AA35BF9B1503C49800DA4314 /* ExamplePrivilegedHelper-Launchd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ExamplePrivilegedHelper-Launchd.plist"; sourceTree = "<group>"; };
+		AA35BF9C1503C49800DA4314 /* SSPrivilegedHelperCommon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SSPrivilegedHelperCommon.c; sourceTree = "<group>"; };
+		AA35BF9D1503C49800DA4314 /* SSPrivilegedHelperCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPrivilegedHelperCommon.h; sourceTree = "<group>"; };
+		AA35BF9E1503C49800DA4314 /* SSPrivilegedHelperMain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SSPrivilegedHelperMain.c; sourceTree = "<group>"; };
+		AA35BFA01503C49800DA4314 /* exampletoolmain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = exampletoolmain.m; sourceTree = "<group>"; };
+		AA35BFA81503CB2B00DA4314 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		AA35BFAA1503CB3200DA4314 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AA35BFB01503CB6C00DA4314 /* com.stevestreeting.ExamplePrivilegedHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.stevestreeting.ExamplePrivilegedHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA35BFBB1503CBCE00DA4314 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		AA35BFC41503CC2C00DA4314 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		AA35BFCA1503CCDF00DA4314 /* ssexampletool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ssexampletool; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA35BF721503C30200DA4314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA35BFAB1503CB3200DA4314 /* Security.framework in Frameworks */,
+				AA35BFA91503CB2B00DA4314 /* ServiceManagement.framework in Frameworks */,
+				AA35BF7A1503C30200DA4314 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA35BFAD1503CB6C00DA4314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA35BFC51503CC2C00DA4314 /* CoreServices.framework in Frameworks */,
+				AA35BFBC1503CBCE00DA4314 /* CoreFoundation.framework in Frameworks */,
+				AA35BFBA1503CBC700DA4314 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA35BFC71503CCDF00DA4314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA35BF6A1503C30100DA4314 = {
+			isa = PBXGroup;
+			children = (
+				AA35BFC41503CC2C00DA4314 /* CoreServices.framework */,
+				AA35BFBB1503CBCE00DA4314 /* CoreFoundation.framework */,
+				AA35BFAA1503CB3200DA4314 /* Security.framework */,
+				AA35BFA81503CB2B00DA4314 /* ServiceManagement.framework */,
+				AA35BF7F1503C30200DA4314 /* PrivilegedHelperExample */,
+				AA35BF781503C30200DA4314 /* Frameworks */,
+				AA35BF761503C30200DA4314 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA35BF761503C30200DA4314 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA35BF751503C30200DA4314 /* PrivilegedHelperExample.app */,
+				AA35BFB01503CB6C00DA4314 /* com.stevestreeting.ExamplePrivilegedHelper */,
+				AA35BFCA1503CCDF00DA4314 /* ssexampletool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA35BF781503C30200DA4314 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA35BF791503C30200DA4314 /* Cocoa.framework */,
+				AA35BF7B1503C30200DA4314 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA35BF7B1503C30200DA4314 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA35BF7C1503C30200DA4314 /* AppKit.framework */,
+				AA35BF7D1503C30200DA4314 /* CoreData.framework */,
+				AA35BF7E1503C30200DA4314 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AA35BF7F1503C30200DA4314 /* PrivilegedHelperExample */ = {
+			isa = PBXGroup;
+			children = (
+				AA35BF971503C49800DA4314 /* com.stevestreeting.ExamplePrivilegedHelper */,
+				AA35BF9F1503C49800DA4314 /* exampletool */,
+				AA35BF8B1503C30200DA4314 /* SSAppDelegate.h */,
+				AA35BF8C1503C30200DA4314 /* SSAppDelegate.m */,
+				AA35BF8E1503C30200DA4314 /* MainMenu.xib */,
+				AA35BF801503C30200DA4314 /* Supporting Files */,
+			);
+			path = PrivilegedHelperExample;
+			sourceTree = "<group>";
+		};
+		AA35BF801503C30200DA4314 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA35BF811503C30200DA4314 /* PrivilegedHelperExample-Info.plist */,
+				AA35BF821503C30200DA4314 /* InfoPlist.strings */,
+				AA35BF851503C30200DA4314 /* main.m */,
+				AA35BF871503C30200DA4314 /* PrivilegedHelperExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA35BF971503C49800DA4314 /* com.stevestreeting.ExamplePrivilegedHelper */ = {
+			isa = PBXGroup;
+			children = (
+				AA35BF981503C49800DA4314 /* BetterAuthorizationSampleLib.c */,
+				AA35BF991503C49800DA4314 /* BetterAuthorizationSampleLib.h */,
+				AA35BF9A1503C49800DA4314 /* ExamplePrivilegedHelper-Info.plist */,
+				AA35BF9B1503C49800DA4314 /* ExamplePrivilegedHelper-Launchd.plist */,
+				AA35BF9C1503C49800DA4314 /* SSPrivilegedHelperCommon.c */,
+				AA35BF9D1503C49800DA4314 /* SSPrivilegedHelperCommon.h */,
+				AA35BF9E1503C49800DA4314 /* SSPrivilegedHelperMain.c */,
+			);
+			path = com.stevestreeting.ExamplePrivilegedHelper;
+			sourceTree = "<group>";
+		};
+		AA35BF9F1503C49800DA4314 /* exampletool */ = {
+			isa = PBXGroup;
+			children = (
+				AA35BFA01503C49800DA4314 /* exampletoolmain.m */,
+			);
+			name = exampletool;
+			path = tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA35BF741503C30200DA4314 /* PrivilegedHelperExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA35BF931503C30200DA4314 /* Build configuration list for PBXNativeTarget "PrivilegedHelperExample" */;
+			buildPhases = (
+				AA35BF711503C30200DA4314 /* Sources */,
+				AA35BF721503C30200DA4314 /* Frameworks */,
+				AA35BF731503C30200DA4314 /* Resources */,
+				AA35BFD91503CF6E00DA4314 /* Copy Launch Services */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA35BFD51503CD1500DA4314 /* PBXTargetDependency */,
+				AA35BFC31503CBFC00DA4314 /* PBXTargetDependency */,
+			);
+			name = PrivilegedHelperExample;
+			productName = PrivilegedHelperExample;
+			productReference = AA35BF751503C30200DA4314 /* PrivilegedHelperExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA35BFAF1503CB6C00DA4314 /* com.stevestreeting.ExamplePrivilegedHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA35BFB71503CB6C00DA4314 /* Build configuration list for PBXNativeTarget "com.stevestreeting.ExamplePrivilegedHelper" */;
+			buildPhases = (
+				AA35BFAC1503CB6C00DA4314 /* Sources */,
+				AA35BFAD1503CB6C00DA4314 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = com.stevestreeting.ExamplePrivilegedHelper;
+			productName = ExamplePrivilegedHelper;
+			productReference = AA35BFB01503CB6C00DA4314 /* com.stevestreeting.ExamplePrivilegedHelper */;
+			productType = "com.apple.product-type.tool";
+		};
+		AA35BFC91503CCDF00DA4314 /* ssexampletool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA35BFD11503CCDF00DA4314 /* Build configuration list for PBXNativeTarget "ssexampletool" */;
+			buildPhases = (
+				AA35BFC61503CCDF00DA4314 /* Sources */,
+				AA35BFC71503CCDF00DA4314 /* Frameworks */,
+				AA35BFC81503CCDF00DA4314 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ssexampletool;
+			productName = ssexampletool;
+			productReference = AA35BFCA1503CCDF00DA4314 /* ssexampletool */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA35BF6C1503C30100DA4314 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SS;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Torus Knot Software Ltd";
+			};
+			buildConfigurationList = AA35BF6F1503C30100DA4314 /* Build configuration list for PBXProject "PrivilegedHelperExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA35BF6A1503C30100DA4314;
+			productRefGroup = AA35BF761503C30200DA4314 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA35BF741503C30200DA4314 /* PrivilegedHelperExample */,
+				AA35BFAF1503CB6C00DA4314 /* com.stevestreeting.ExamplePrivilegedHelper */,
+				AA35BFC91503CCDF00DA4314 /* ssexampletool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA35BF731503C30200DA4314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA35BFD81503CF2F00DA4314 /* ssexampletool in Resources */,
+				AA35BF841503C30200DA4314 /* InfoPlist.strings in Resources */,
+				AA35BF901503C30200DA4314 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA35BF711503C30200DA4314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA35BFA71503CAA900DA4314 /* main.m in Sources */,
+				AA35BF8D1503C30200DA4314 /* SSAppDelegate.m in Sources */,
+				AA35BFA11503C49800DA4314 /* BetterAuthorizationSampleLib.c in Sources */,
+				AA35BFA41503C49800DA4314 /* SSPrivilegedHelperCommon.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA35BFAC1503CB6C00DA4314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA35BFDB1503D2BD00DA4314 /* BetterAuthorizationSampleLib.c in Sources */,
+				AA35BFBE1503CBE800DA4314 /* ExamplePrivilegedHelper-Info.plist in Sources */,
+				AA35BFBF1503CBE800DA4314 /* ExamplePrivilegedHelper-Launchd.plist in Sources */,
+				AA35BFC01503CBE800DA4314 /* SSPrivilegedHelperCommon.c in Sources */,
+				AA35BFC11503CBE800DA4314 /* SSPrivilegedHelperMain.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA35BFC61503CCDF00DA4314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA35BFD61503CD2400DA4314 /* exampletoolmain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA35BFC31503CBFC00DA4314 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA35BFAF1503CB6C00DA4314 /* com.stevestreeting.ExamplePrivilegedHelper */;
+			targetProxy = AA35BFC21503CBFC00DA4314 /* PBXContainerItemProxy */;
+		};
+		AA35BFD51503CD1500DA4314 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA35BFC91503CCDF00DA4314 /* ssexampletool */;
+			targetProxy = AA35BFD41503CD1500DA4314 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA35BF821503C30200DA4314 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA35BF831503C30200DA4314 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA35BF8E1503C30200DA4314 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA35BF8F1503C30200DA4314 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA35BF911503C30200DA4314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Your Company Here";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA35BF921503C30200DA4314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Your Company Here";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA35BF941503C30200DA4314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrivilegedHelperExample/PrivilegedHelperExample-Prefix.pch";
+				INFOPLIST_FILE = "PrivilegedHelperExample/PrivilegedHelperExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA35BF951503C30200DA4314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrivilegedHelperExample/PrivilegedHelperExample-Prefix.pch";
+				INFOPLIST_FILE = "PrivilegedHelperExample/PrivilegedHelperExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AA35BFB81503CB6C00DA4314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				INFOPLIST_FILE = "ExamplePrivilegedHelper-Info.plist";
+				INFOPLIST_PREPROCESS = YES;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"PrivilegedHelperExample/com.stevestreeting.ExamplePrivilegedHelper/ExamplePrivilegedHelper-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"PrivilegedHelperExample/com.stevestreeting.ExamplePrivilegedHelper/ExamplePrivilegedHelper-Launchd.plist",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AA35BFB91503CB6C00DA4314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				INFOPLIST_FILE = "ExamplePrivilegedHelper-Info.plist";
+				INFOPLIST_PREPROCESS = YES;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"PrivilegedHelperExample/com.stevestreeting.ExamplePrivilegedHelper/ExamplePrivilegedHelper-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"PrivilegedHelperExample/com.stevestreeting.ExamplePrivilegedHelper/ExamplePrivilegedHelper-Launchd.plist",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AA35BFD21503CCDF00DA4314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AA35BFD31503CCDF00DA4314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA35BF6F1503C30100DA4314 /* Build configuration list for PBXProject "PrivilegedHelperExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA35BF911503C30200DA4314 /* Debug */,
+				AA35BF921503C30200DA4314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA35BF931503C30200DA4314 /* Build configuration list for PBXNativeTarget "PrivilegedHelperExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA35BF941503C30200DA4314 /* Debug */,
+				AA35BF951503C30200DA4314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA35BFB71503CB6C00DA4314 /* Build configuration list for PBXNativeTarget "com.stevestreeting.ExamplePrivilegedHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA35BFB81503CB6C00DA4314 /* Debug */,
+				AA35BFB91503CB6C00DA4314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA35BFD11503CCDF00DA4314 /* Build configuration list for PBXNativeTarget "ssexampletool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA35BFD21503CCDF00DA4314 /* Debug */,
+				AA35BFD31503CCDF00DA4314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA35BF6C1503C30100DA4314 /* Project object */;
+}
